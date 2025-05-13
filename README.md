@@ -6,7 +6,7 @@ Predict whether the customer will **get his booking** or **cancel it** , using a
 
 This notebook walks through a full Data Science workflow on a **hotel bookings reservations for 2017 & 2018 year dataset** :
 
-1. **Data Ingestion & Cleaning**  
+1. **Data  Inspection & Cleaning**  
    - Load reservation data, handle missing values, drop irrelevant columns.  
    - Recode categorical fields and convert the target (`booking_status`) to binary.
 
@@ -46,8 +46,9 @@ This notebook walks through a full Data Science workflow on a **hotel bookings r
   Plotly enables highly interactive, zoomable charts in Colab, making pattern discovery more intuitive.
 
 - **GitHub Rendering Note:**  
-  GitHub’s static notebook preview cannot execute Plotly’s JavaScript. So there's a problem showing plotly in github but to show these plots you can open the notebook in colab to check the wonderful visualization of data. 
- **Open the notebook in Google Colab** using the badge below  
+  GitHub’s static notebook preview cannot execute Plotly’s JavaScript. So there's a problem showing plotly in github but to show these plots you can open the notebook in colab to check the wonderful visualization of data.
+
+# ** To Open the notebook in Google Colab: **  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XjVBiI4VFGYlybjtGFmCBlkkZ0cvhjG7#scrollTo=JFKiEg8Ppl23)
 
 ---
@@ -60,6 +61,7 @@ This notebook walks through a full Data Science workflow on a **hotel bookings r
 | **Top 10 Features + StandardScaler**  | **SVM**       | **83%**  |
 | **SMOTE + any model**                     | **Various**       | **80%**     |
 | **GridSearchCV tuning**                   | **SVM**    | **80%** |
+
 
 > **Conclusion:**  [SVM + StandardScaler + Top 10 Features] ➔  is the best approach that produces **83% Accuracy**.
 
