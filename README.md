@@ -1,4 +1,4 @@
-# 🏨 Hotel Reservation| End-to-End Data Science Project
+# 🏨 Hotel Reservation | End-to-End Data Science Project
 
 Predict whether the customer will **get his booking** or **cancel it** , using a complete data-science pipeline from raw data through final model evaluation
 
@@ -40,7 +40,7 @@ This notebook walks through a full Data Science workflow on a **hotel bookings r
 
 ---
 
-## 📈 Plotly Integration
+## 📈  Plotly Integration
 
 - **Why Plotly?**  
   Plotly enables highly interactive, zoomable charts in Colab, making pattern discovery more intuitive.
@@ -48,7 +48,7 @@ This notebook walks through a full Data Science workflow on a **hotel bookings r
 - **GitHub Rendering Note:**  
   GitHub’s static notebook preview cannot execute Plotly’s JavaScript. So there's a problem showing plotly in github but to show these plots you can open the notebook in colab to check the wonderful visualization of data.
 
-# ** To Open the notebook in Google Colab: **  
+## **To Open the notebook in Google Colab:**  
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XjVBiI4VFGYlybjtGFmCBlkkZ0cvhjG7#scrollTo=JFKiEg8Ppl23)
 
 ---
