@@ -1,8 +1,8 @@
 # 🏨 Hotel Reservation| End-to-End Data Science Project
 
-Predict whether **get his booking** or **cancel it** , using a complete data-science pipeline from raw data through final model evaluation
+Predict whether the customer will **get his booking** or **cancel it** , using a complete data-science pipeline from raw data through final model evaluation
 
-## 🚀 Project Overview
+## Project Overview
 
 This notebook walks through a full Data Science workflow on a **hotel bookings reservations for 2017 & 2018 year dataset** :
 
@@ -19,10 +19,10 @@ This notebook walks through a full Data Science workflow on a **hotel bookings r
 
 4. **Preprocessing & Feature Engineering**
    - Encoding categorical variables.
-   - Outlier detaction and removal.   
+   - Outlier detection and removal.   
    - Balancing target class `Booking_status` with **SMOTE** technique.  
    - Testing multiple **feature scalers**: StandardScaler, MinMaxScaler, RobustScaler to decide which is the most suitable one for data. 
-   - Selecting the **Top 10 highest-impact features** based on feature-importance.
+   - Selecting the **Top 10 highest-impact features** based on feature importance.
 
 6. **Modeling**  
    - Train and compare three classifiers:  
@@ -31,11 +31,12 @@ This notebook walks through a full Data Science workflow on a **hotel bookings r
      - Support Vector Machine (SVM).
 
 7. **Hyperparameter Tuning**  
-   - Use **GridSearchCV** to find optimal parameters for SVM as it was the best suitable model for data with hoghest accuracy. 
+   - Use **GridSearchCV** to find optimal parameters for SVM as it was indicated as the best suitable model for data with highest accuracy after comparing
+     its result with the other 2 models : Random Forest, Logistic Regression. 
 
 8. **Final Evaluation & Conclusions**  
    - Compare all pipelines’ accuracies.  
-   - **Best result:** SVM + StandardScaler + Top 10 Features → **83% accuracy**
+   - **Best result:** SVM + StandardScaler + Top 10 Features : **83% accuracy**
 
 ---
 
